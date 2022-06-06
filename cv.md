@@ -10,6 +10,7 @@
 * stress resistant
 * easily trained
 * plodding 
+* communicable
 
 ## Skills
 * Python(basic)
