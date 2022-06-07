@@ -7,7 +7,9 @@
 * GitHub: MishaMi1230
 
 ## About me
-* stress resistant,easily trained,plodding 
+* stress resistant
+* easily trained
+* plodding 
 
 ## Skills
 * Python(basic)
