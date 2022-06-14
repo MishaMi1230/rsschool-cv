@@ -1,0 +1,304 @@
+body {
+    margin: 0;
+    background-color: rgb(236, 204, 158);
+    font-family: 'Arial', sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    display: flex;
+}
+
+
+/*block*/
+.block{
+    border: 5px solid rgb(83, 83, 83);
+    width: 70%;
+    margin: 0px auto;
+    height: 100%;
+    position: relative;
+    top: 65px;
+    z-index: 999;
+}
+
+.block__1{
+    margin-top: 20px;
+    line-height: 50px;
+    font-size: 55px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    font-family: 'pacifico';
+}
+
+.block__2{
+    max-width: 100%;
+    background-color: rgb(166, 144, 112);
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    border: 5px solid rgb(83, 83, 83);
+    border-top-width:5px ;
+    border-left-width:0 ;
+    border-right-width:0px ;
+    font-size: 40px;
+    font-family: 'pacifico';
+}
+
+.block__3{
+    max-width: 100%;
+    background-color: rgb(166, 144, 112);
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    border: 5px solid rgb(83, 83, 83);
+    border-top-width:5px ;
+    border-left-width:0 ;
+    border-right-width:0px ;
+    font-size: 40px;
+    font-family: 'pacifico';
+}
+
+.block__4{
+    max-width: 100%;
+    background-color: rgb(166, 144, 112);
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    border: 5px solid rgb(83, 83, 83);
+    border-top-width:5px ;
+    border-left-width:0 ;
+    border-right-width:0 ;
+    font-size: 40px;
+    font-family: 'pacifico';
+}
+
+.block__5{
+    max-width: 100%;
+    background-color: rgb(166, 144, 112);
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    border: 5px solid rgb(83, 83, 83);
+    border-top-width:5px ;
+    border-left-width:0 ;
+    border-right-width:0px ;
+    font-size: 40px;
+    font-family: 'pacifico';
+}
+
+.block__6{
+    max-width: 100%;
+    background-color: rgb(166, 144, 112);
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    border: 5px solid rgb(83, 83, 83);
+    border-top-width:5px ;
+    border-left-width:0 ;
+    border-right-width:0px ;
+    font-size: 40px;
+    font-family: 'pacifico';
+}
+
+.block__7{
+    width: 49.5%;
+    background-color: rgb(166, 144, 112);
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    position: absolute;
+    right: 0px;
+    top: 360px;
+    border: 5px solid rgb(83, 83, 83);
+    border-top-width:5px ;
+    border-left-width:5px ;
+    border-right-width:0px ;
+    font-size: 40px;
+    font-family: 'pacifico';
+}
+
+
+
+
+/*content*/
+
+.content_contacts{
+    margin: 20px;
+    line-height: 1.8;
+}
+
+.content_me{
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    max-width: 100%;
+    max-height: 270px;
+}
+
+.text_inside_me{
+    position: relative;
+    border: 3px solid black;
+    padding-left: 10px;
+    max-width: 70%;
+    max-height: 500px;
+    left: 280px;
+    bottom: 250px;
+    font-weight: 700;
+
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.content_about{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content_skills{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content_education{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content_english{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
+}
+
+.content_example{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: absolute;
+    right: 120px;
+    top: 450px;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.boarder{
+    border: 5px solid rgb(83, 83, 83);
+    border-left: 5px;
+    border-top: 0;
+    border-bottom: 0px;
+    max-width: 50%;
+    height: 960px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+/*header*/
+.header {
+    position: fixed; /*Элемент исчезает с того места, где он должен быть и позиционируется заново. Остальные элементы, располагаются так, как будто этого элемента никогда не было.*/
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /*тяжесть индекса, что бы не наслаивалось если так случится*/
+    width: 100%;
+    background-color:rgb(252, 220, 175);
+}
+
+.header_logo{
+    font-size: 30px; 
+    font-weight: 700;
+    color: black;
+    font-family: 'pacifico';
+    position: relative;
+    left: 20px;
+    bottom: 5px;
+
+}
+
+.header_inner{
+    padding-top: 10px; /*отступы друг от друга*/
+    display: flex;
+    justify-content: space-between; /*CSS свойство justify-content определяет, как браузер распределяет пространство между и вокруг элементов контента вдоль главной оси flex контейнера, или вдоль строчной оси grid контейнера.*/
+    align-items: center; /*Выравнивает по горизонтали хедера*/
+}
+
+/*nav*/
+.nav{
+    font-size: 14px;
+    text-transform: uppercase; /*делает верхний регистр*/
+    color: black;
+}
+
+.nav_link{
+    display: inline-block; /*это значение, которые можно назначить свойству display. Название происходит от некоторых характеристик как строчного, так и блочного элементов. Блочные (block) элементы имеют высоту, ширину, padding, margin, border, а также располагаются вертикально, друг под другом.*/
+    vertical-align: top;
+    position: relative; /*используется для задания родительский позиции относительно .nav_link:after */
+    color: rgba(60, 58, 58, 0.615);
+    text-decoration: none; /*убирает нижнее подчёркивание*/
+    transition: color 0.2s linear; /*смена цвета с задержкой (работает от -.nav_link:hover)*/
+    margin: 0 10px;
+    font-family: 'arial';
+}
+
+.nav_link:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    /*display: none; /*не отображается на дисплее, пока .nav_link:hover:after не наведётся на вкладку  */
+    background-color: rgba(60, 58, 58, 0.615);
+    opacity: 0;
+    position: absolute; /*позиция обсолютна от родителя , т.е. от .nav_link*/
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    transition: opacity 0.1s linear;
+}
+
+.nav_link:hover{
+    color: black;   
+}
+
+.title_1{
+    font-size: 24px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    max-width: 320px;
+}
+
+.title_2{
+    font-size: 24px;
+}
+
+/*footer*/
+
+.footer_inner{
+    position: relative;
+    right: 1283px;
+    top: 1416px;
+    display: flex;
+    bottom: 0px;
+    height: 60px;
+    align-items: center;
+}
