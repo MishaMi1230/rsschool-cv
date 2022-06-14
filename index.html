@@ -3,9 +3,145 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Verstka</title>
+    <title>First Verstka</title>
 </head>
 <body>
+    <header class="header">
+        <div class="container">
+           <div class="header_inner">
+                <div class="header_logo"><strong>CV</strong></div>
+                <nav class="nav">
+                    <a class="nav_link" href="#1">Contacts</a>
+                    <a class="nav_link" href="#2">About me</a>
+                    <a class="nav_link" href="#3">Skills</a>
+                    <a class="nav_link" href="#4">Code exemple</a>
+                    <a class="nav_link" href="#5">Education</a>
+                    <a class="nav_link" href="#6">Language</a>
+                </nav>
+           </div>
+        </div>
+    </header>
+<div class="block">
+    <main>
+        <div class="block__1", id="1">Milto Mikhail</div>
+            <div class="content_me">
+                <img src="/assets/me.jpeg" alt="myphoto">
+                <div class="text_inside_me"><p class="title_1">Future Front-End Developer</p>
+                    <pre>
+I like to constantly learn something new, improve my skills and be in 
+constant motion. That's why I chose programming, nothing stands still 
+in it, progress is in the air and does not allow you to relax for a 
+minute, that's what I like.
+                    </pre>
+                </div>
+            </div>
+            <div class="boarder">
+                    <div class="block__2", id="2">Contacts</div>
+                        <div class="content_contacts">
+                            <li>
+                                <b>Location:</b> 
+                                <a href="#">Homel,Belarus</a>
+                            </li>
+                            <li>
+                                <b>Email:</b>
+                                <a href="#">miltomisha43@gmail.com</a> 
+                            </li>
+                            <li>
+                                <b>GitHub:</b> 
+                                <a href="#">MishaMi1230</a> 
+                            </li>
+                            <li>
+                                <b>Discord:</b> 
+                                <a href="#">MiltoMisha#7938</a> 
+                            </li>
+                            <li>
+                                <b>Inst:</b> 
+                                <a href="#">fear_of_blank_planet</a> 
+                            </li>
+                        </div>
+                <div class="block__3",, id="3">About Me</div>
+                    <div class="content_about">
+                        <li> 
+                            <b>Stress Resistant</b> 
+                        </li>
+                        <li> 
+                            <b>Easily Trained</b> 
+                        </li>
+                        <li> 
+                            <b>Plodding</b> 
+                        </li>
+                        <li> 
+                            <b>Communicable</b> 
+                        </li>
+                    </div>
+                <div class="block__4", id="4">Skills</div>
+                    <div class="content_skills">
+                        <li> 
+                            <b>Python(basic)</b> 
+                        </li>
+                        <li> 
+                            <b>Java(basic)</b>
+                        </li>
+                        <li> 
+                            <b>Pascal(basic)</b>
+                        </li>
+                        <li> 
+                            <b>JS(basic)</b>
+                        </li>
+                    </div>
+                <div class="block__5", id="5">Education</div>
+                    <div class="content_education">
+                        <li>
+                            <b>University:</b> Homel Trade and Economics Kollege (present).
+                        </li>
+                        <li>
+                            <b>Rolling scopes school:</b> stage 0 (present).
+                        </li>    
+                    </div>
+
+                <div class="block__6", id="6">English</div>
+                    <div class="content_english">
+                        <li><b>English level</b> - A2</li>    
+                    </div>
+
+            </div>
+            <div class="block__7", id="7">Code Example</div>
+            <div class="content_example">
+                <pre>
+<b>import turtle
+
+directions = 'R'
+interactions = 15
+line_length = 3
+angle = 90
+                    
+turtle.penup()
+turtle.setpos(0, 0)
+turtle.width(2)
+turtle.pendown()
+turtle.speed(100000)
+                    
+for i in range(interactions):
+rev = directions[::-1]
+rev = rev.replace('R', '-').
+replace('L', 'R').replace('-', 'L')
+directions = directions + 'R' + rev
+                    
+for a in directions:
+    if a == 'R':
+        turtle.right(angle)
+    else:
+        urtle.left(angle)
+    turtle.forward(line_length)
+
+turtle.update()
+turtle.done()</b>
+                </pre>
+            </div>
+    </main>
+</div>
 </body>
 </html>
